@@ -1,0 +1,264 @@
+.container-fluid{
+  margin:0;
+  padding:0;
+  padding-top:50px;
+  padding-bottom:50px;
+  overflow: hidden;
+}
+
+.name{
+  margin:0;
+  font-family: 'Corben', cursive;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.name h1{
+  font-size:72px;
+  text-align:center;
+}
+
+.name h2{
+  margin-top:50px;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* 右に寄せたい… */
+.contact-icon{
+  margin-left: auto;
+  display: inline-block;
+  text-align: right;
+}
+
+
+.about{
+  margin:0;
+  text-align:left;
+  padding-left:100px;
+  /* padding-bottom:250px; */
+}
+
+.about h1{
+  font-family: 'Corben', cursive;
+  font-size:36px;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+.about p{
+  margin-top:20px;
+  text-align:left;
+  line-height:2rem;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+.skill{
+  margin:0;
+  text-align:left;
+  padding-left:100px;
+  /* padding-bottom:250px; */
+}
+
+.skill h1{
+  font-family: 'Corben', cursive;
+  font-size:36px;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+.skill p{
+  margin-top:20px;
+  text-align:left;
+  line-height:3rem;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+
+.skill-icon{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.skill-icon i{
+  /* color:#b0c4de; */
+}
+
+.skill-icon p{
+  margin:0;
+  text-align: center;
+}
+
+.hobby{
+  margin: 0;
+  padding: 0;
+}
+
+.game{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hobby h1{
+  font-family: 'Corben', cursive;
+  font-size:36px;
+  text-align: center;
+  padding-top: 50px;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+.hobby p{
+  font-size:18px;
+  text-align: center;
+  padding-top: 20px;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+.game{
+  margin:20px auto;
+  border: 1px solid;
+  max-width: 300px;
+  justify-content: space-around;
+}
+
+.game h2{
+  font-family: 'Corben', cursive;
+  font-size:24px;
+  text-align: center;
+}
+
+.future{
+  margin:0;
+  text-align:left;
+  padding-left:100px;
+  /* padding-bottom:250px; */
+}
+
+.future h1{
+  font-family: 'Corben', cursive;
+  font-size:36px;
+  text-align: left;
+  padding-top: 50px;
+  /* color:white;
+  text-shadow: 1px 1px #dcdcdc; */
+}
+
+.icon a{
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
+}
+
+.icon a:hover{
+  opacity:0.6;
+  color:blue;
+}
+
+.bg01{
+  min-height:300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: gainsboro;
+  /* background-image:url(../img/bg01.jpg); */
+  /* -webkit-background-clip: text;
+  color:transparent;
+  background-clip: text; */
+}
+
+.bg02{
+  min-height:500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color:silver;
+  /* background-image:url(../img/bg01.jpg) */
+}
+
+.bg03{
+  min-height:500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color:gainsboro;
+  /* background-image:url(../img/bg01.jpg) */
+}
+
+.bg04{
+  min-height:500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color:silver;
+  /* background-image:url(../img/bg01.jpg) */
+}
+
+.test{
+  height:800px;
+}
+
+@media(max-width:576px){
+  .name h1{
+    font-size: 48px;
+  }
+
+  .name h2{
+    font-size: 32px;
+  }
+
+  .bg01{
+    min-height:300px;
+  }
+
+  .about{
+    padding:50px;
+  }
+
+  .about h1{
+    font-size: 24px;
+  }
+
+  .about p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .skill{
+    padding:50px;
+  }
+
+  .skill h1{
+    font-size: 24px;
+  }
+
+  .skill p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .icon{
+    text-align: start;
+  }
+
+  .skill-icon{
+    /* margin:0; */
+  }
+
+  .skill-icon p{
+    margin:0;
+    text-align: center;
+  }
+}
