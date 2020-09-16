@@ -168,11 +168,10 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-color: gainsboro;
-  /* background-image:url(../img/bg01.jpg); */
-  /* -webkit-background-clip: text;
+  background-image:url(../img/bg01.jpg);
+  -webkit-background-clip: text;
   color:transparent;
-  background-clip: text; */
+  background-clip: text;
 }
 
 .bg02{

@@ -2,18 +2,189 @@
   line-height:2rem;
 }
 
-.bg-01{
+#home{
+  min-height:400px;
+}
+
+#home h1{
+  padding-top:100px;
+  font-size:64px;
+  font-family: 'Corben', cursive;
+  color: transparent;
+  background-image:url(../img/bg01.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation-name:name;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+}
+
+@keyframes name{
+  0%{
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#home h1 span{
+ font-size:32px;
+}
+
+#home i{
+  color: transparent;
+  background-image:url(../img/bg01.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation-name: name;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+#about-skill{
+  min-height:600px;
+  background-image:url(../img/bg01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f3ffd8;
+  animation-name:skill-about;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes skill-about{
+  0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#about-skill h1{
+  font-family: 'Corben', cursive;
+  font-size: 32px;
+}
+
+#about-skill p{
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+#hobby{
   min-height:500px;
 }
 
-.bg-02{
-  min-height:600px;
+#hobby h1 {
+  font-family: 'Corben', cursive;
+  color: transparent;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.bg-03{
-  min-height:200px;
+#hobby h2 {
+  font-family: 'Corben', cursive;
+  color: transparent;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.bg-04{
+#hobby p {
+  color: transparent;
+  font-weight: bold;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.games{
+  animation-name: slidein;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes slidein{
+  0%{
+    opacity: 0;
+    transform:translateX(50px)
+  }
+  100%{
+    opacity: 1;
+    transform:translateX(0px)
+  }
+}
+
+.border{
+  border:double 5px 	#778899 !important;
+}
+
+
+#want-challenge{
   min-height:300px;
+  background-image:url(../img/bg02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #DDDDDD;
+}
+
+#want-challenge h1{
+  font-family: 'Corben', cursive;
+}
+
+#want-challenge p{
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+#contact h1{
+  font-family: 'Corben', cursive;
+  color: transparent;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.form-group label{
+  color: transparent;
+  font-weight:bold;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+@media (max-width: 480px) {
+  #home h1{
+    font-size:42px;
+  }
+
+  #home h1 span{
+    font-size:24px;
+   }
+
 }
