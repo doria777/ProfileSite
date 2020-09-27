@@ -117,28 +117,9 @@
   background-attachment: fixed;
 }
 
-.games{
-  animation-name: slidein;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
-}
-
-@keyframes slidein{
-  0%{
-    opacity: 0;
-    transform:translateX(50px)
-  }
-  100%{
-    opacity: 1;
-    transform:translateX(0px)
-  }
-}
-
 .border{
   border:double 5px 	#778899 !important;
 }
-
 
 #want-challenge{
   min-height:300px;
@@ -157,7 +138,33 @@
   text-shadow: 1px 1px 1px #ffffff;
 }
 
+#contact{
+  height: 300px;
+}
+
 #contact h1{
+  font-family: 'Corben', cursive;
+  color: transparent;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact p{
+  color: transparent;
+  font-weight: bold;
+  background-image:url(../img/bg02.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#contact a{
   font-family: 'Corben', cursive;
   color: transparent;
   background-image:url(../img/bg02.jpg);
@@ -175,6 +182,11 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.footer{
+  height:40px;
+  background-color: #eeeeee;
 }
 
 
